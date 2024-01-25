@@ -10,6 +10,22 @@ header{
     height: 25px;
     width: 18px;
 }
+#nike{
+    height: 300px;
+    width: 350px;
+}
+#höstsko{
+    height: 300px;
+    width: 350px;
+}
+#rosa_sko{
+    height: 300px;
+    width: 350px;
+}
+#brun_sko{
+    height: 300px;
+    width: 350px;
+}
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
