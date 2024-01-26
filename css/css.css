@@ -23,12 +23,7 @@ header{
     background-color: blue;
     
 }
-#kontakt{
-    width: 100%;
-    height: 100%;
-    background-color: white;
-    margin-top: 0;
-}
+
 #about_shoe{
     background-color: green;
     width: 70%;
@@ -88,8 +83,23 @@ body{
     position: relative;
     min-height: 100vh;
     padding: 0;
+    overflow-x: hidden;
 }
 #kontaktheader{
     background-color: white;
     margin-bottom: 0;
+}
+#kontakt{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    margin-top: 0;
+}
+#boxy{
+    display: flex;
+}
+#sidbild{
+    height: 480px;
+    width: 480px;
+
 }
