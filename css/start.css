@@ -38,3 +38,10 @@ body{
     display: flex;
     flex-wrap: wrap;
 }
+#kontaktfooter_start{
+    background-color: yellow;
+    padding-top: 0;
+    
+    bottom: 0;
+    width: 100%;
+}
