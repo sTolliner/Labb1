@@ -32,11 +32,16 @@
 }
 #kontaktfooter{
     background-color: yellow;
-    padding: 0;
+    padding-top: 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 body{
     margin: 0;
-    background-color: yellow;
+    position: relative;
+    min-height: 100vh;
+    padding: 0;
 }
 #kontaktheader{
     background-color: white;
