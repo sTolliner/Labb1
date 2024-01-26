@@ -5,27 +5,36 @@ header{
     height: 35px;
     width: 20px;
 }
-
+#Damsko{
+    padding-left: 10px;
+}
 #soklogga{
     height: 25px;
     width: 18px;
 }
-#nike{
+main>figure>img{
     height: 300px;
     width: 350px;
+    margin: 0;
+    border: 2px solid white;
 }
-#höstsko{
-    height: 300px;
-    width: 350px;
+main>figure>img:hover{
+    border: 2px solid black;
 }
-#rosa_sko{
+main>figure>a>img{
     height: 300px;
     width: 350px;
+    margin: 0;
+    border: 2px solid white;
 }
-#brun_sko{
-    height: 300px;
-    width: 350px;
+main>figure>a>img:hover{
+    border: 2px solid black;
 }
 body{
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
 }
