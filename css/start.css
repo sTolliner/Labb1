@@ -12,6 +12,12 @@ header{
     height: 25px;
     width: 18px;
 }
+#headerspace1{
+    width: 5%;
+}
+#headerspace2{
+    width: 65%;
+}
 main>figure>img{
     height: 300px;
     width: 350px;
