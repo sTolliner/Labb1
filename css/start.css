@@ -53,5 +53,5 @@ body{
 }
 main>figure>figcaption{
     color: darkslategrey;
-    font-weight: bold;
+    /*font-weight: bold;  står redan i html filen*/
 }
