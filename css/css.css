@@ -15,75 +15,83 @@ header{
 }
 #objekt{
     width: 70%;
-    background-color: purple;
     margin: 0;
 }
 #side{
     width: 30%;
-    background-color: blue;
-    
 }
 
 #about_shoe{
-    background-color: green;
     width: 70%;
-    height: 25%;
+    height: 40vh;
     margin: 5% auto;
     display: flex;
+    border: 2px solid black;
 }
 #about_title{
-    background-color: aqua;
     width: 65%;
     height: 100%;
 }
 #about_price{
-    background-color: pink;
     width: 35%;
     height: 100%;
+    border-left: 2px solid black;
+}
+#list{
+    padding-left: 15%;
+}
+section>h3{
+    padding: 0 2%;
+}
+section>h2{
+    padding: 0 2%;
+}
+section>p{
+    padding: 0 2%;
 }
 *{
     box-sizing: border-box;
 }
 #tst-img{
     width: 70%; 
-    height: 60%;
+    height: 55vh;
     display: block;
     margin: 5% auto;
+    border: 2px solid black;
 }
-#map{
-    text-align: center;
+#google_map{
+    width: 100%;
+    height: 60vh;
+    margin-bottom: 100px;
 }
-#google_map {
-    margin-bottom: 35%;
-    padding-bottom: 70%;
-    position: relative;
-}
-#google_map iframe {
-    height: 80%;
+iframe{
     width: 70%;
-    left: 15%;
-    top: 0;
-    position: absolute;
+    height: 100%;
+    margin-left: 15%;
+    border: 2px solid black;
 }
-#side_list{
-    margin: 10% auto;
-    width:  65%;
-    height: 20%;
-    background-color: chartreuse;
+body>#box>aside>a>img{
+    width: 65%;
+    height: 40%;
+    margin-top: 5%;
+    margin-left: 17.5%;
+    border: 2px solid black;
 }
 #kontaktfooter{
     background-color: yellow;
     padding-top: 0;
-    position: absolute;
-    bottom: 0;
     width: 100%;
+    
+}
+#kontaktfooter>h3{
+    margin-top: 0;
 }
 body{
     margin: 0;
-    position: relative;
     min-height: 100vh;
     padding: 0;
     overflow-x: hidden;
+    font-family: Arial, Helvetica, sans-serif
 }
 #kontaktheader{
     background-color: white;
