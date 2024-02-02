@@ -22,9 +22,6 @@ header>nav>ul>li>img{
     height: 35px;
     width: 35px;
 }
-header>nav>ul>li>{
-    position: relative;
-}
 header>nav>ul{
     display: flex;
     list-style-type: none;

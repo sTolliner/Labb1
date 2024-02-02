@@ -15,6 +15,25 @@ header{
 #headerspace2{
     width: 65%;
 }
+header>nav>ul>li>img{
+    height: 35px;
+    width: 35px;
+}
+header>nav>ul>li>{
+    position: relative;
+}
+header>nav>ul{
+    display: flex;
+    list-style-type: none;
+    padding-left: 0;
+}
+header>nav>ul>li>ul{
+    display: none;
+    list-style-type: none;
+}
+header>nav>ul>li:hover>ul{
+    display: block;
+}
 #box{
     display: flex;
     height: 100%;
