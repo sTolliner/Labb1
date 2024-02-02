@@ -139,21 +139,19 @@ body{
     width: 480px;
 }
 #form{
-    width: 100%;
+    width: 60%;
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
 #kontaktknapp{
-    width: 25%;
+    width: 40%;
     text-align: center;
 }
 #formtext{
-    height: 100%;
-    width: 100%;
+    height: 70%;
 }
 #valj{
-    width: 35%;
+    width: 60%;
     text-align: center;
 }
 #uppgifter{
@@ -161,4 +159,13 @@ body{
 }
 #formdiv{
     width: 40%;
+}
+#text{
+    width: 50%;
+}
+#padding{
+    margin-bottom: 0.5rem;
+}
+#labelform{
+    width: 100%;
 }
