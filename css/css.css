@@ -102,6 +102,13 @@ body>#box>aside>a>img{
     margin-left: 17.5%;
     border: 2px solid black;
 }
+body{
+    margin: 0;
+    min-height: 100vh;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: Arial, Helvetica, sans-serif
+}
 #kontaktfooter{
     background-color: yellow;
     padding-top: 0;
@@ -110,13 +117,6 @@ body>#box>aside>a>img{
 }
 #kontaktfooter>h3{
     margin-top: 0;
-}
-body{
-    margin: 0;
-    min-height: 100vh;
-    padding: 0;
-    overflow-x: hidden;
-    font-family: Arial, Helvetica, sans-serif
 }
 #kontaktheader{
     background-color: white;
@@ -127,12 +127,38 @@ body{
     height: 100%;
     background-color: white;
     margin-top: 0;
+    display: flex;
+
 }
 #boxy{
     display: flex;
+    height: 100%;
 }
 #sidbild{
     height: 480px;
     width: 480px;
-
+}
+#form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#kontaktknapp{
+    width: 25%;
+    text-align: center;
+}
+#formtext{
+    height: 100%;
+    width: 100%;
+}
+#valj{
+    width: 35%;
+    text-align: center;
+}
+#uppgifter{
+    width: 60%s;
+}
+#formdiv{
+    width: 40%;
 }
