@@ -1,3 +1,8 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+/*Kod för header*/
 header{
     background-color: yellow;
 }
@@ -34,6 +39,7 @@ header>nav>ul>li>ul{
 header>nav>ul>li:hover>ul{
     display: block;
 }
+/*Kod för indexsida*/
 main>figure>img{
     height: 300px;
     width: 350px;
@@ -52,22 +58,19 @@ main>figure>a>img{
 main>figure>a>img:hover{
     border: 2px solid black;
 }
-body{
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
-}
 #main_start{
     display: flex;
     flex-wrap: wrap;
 }
+main>figure>figcaption{
+    color: darkslategrey;
+    /*font-weight: bold;  står redan i html filen*/
+}
+/*Kod för footer*/
 #kontaktfooter_start{
     background-color: yellow;
     padding-top: 0;
     
     bottom: 0;
     width: 100%;
-}
-main>figure>figcaption{
-    color: darkslategrey;
-    /*font-weight: bold;  står redan i html filen*/
 }
