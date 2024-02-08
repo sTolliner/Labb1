@@ -5,6 +5,10 @@ header{
     height: 35px;
     width: 20px;
 }
+#home{
+    text-decoration: none;
+    color: black;
+}
 #Damsko{
     padding-left: 10px;
 }
@@ -18,20 +22,29 @@ header{
 #headerspace2{
     width: 65%;
 }
-header>nav>ul>li>img{
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+header>nav>.main-menu>li>img{
     height: 35px;
     width: 35px;
 }
-header>nav>ul{
+header>nav>.main-menu{
     display: flex;
     list-style-type: none;
     padding-left: 0;
+    align-items: center;
 }
-header>nav>ul>li>ul{
+header>nav>.main-menu>li{
+    margin: 0 0.5rem;
+
+}
+header>nav>.main-menu>li>.dropdown{
     display: none;
     list-style-type: none;
 }
-header>nav>ul>li:hover>ul{
+header>nav>.main-menu>li:hover>.dropdown{
     display: block;
 }
 main>figure>img{
