@@ -10,27 +10,24 @@
     <!--Header för sidan med kategorier, är samma på alla sidor-->
     <header>
         <nav>
-            <table>
-                <tr>
-                <!--https://pixabay.com/sv/vectors/fotavtryck-sp%C3%A5r-k%C3%A4nga-sko-enda-155457/-->
-                <td><a href="index.html"><img src="../bilder/Logotyp.png" alt="Logotyp" id="Logotyp"></a></td>
-                <th scope="col">SkoAffären</th> 
-                <th scope="col" id="headerspace1"></th>
-                <th scope="col" id="headerspace2"></th>
-                <td><input type="text" placeholder="Sök här!" id="sökbar"></td>
+            <ul class="main-menu">
+                <li><a href="index.html"><img src="../bilder/Logotyp.png" alt="Logotyp" id="Logotyp"></a></li>
+                <li><a href="" id="home"><b>SkoAffären</b></a></li>
+                <li>
+                    <img src="../bilder/bars-solid.svg" alt="dropmeny">
+                    <ul class="dropdown"><!--show on hover-->
+                        <li><a href="index.html">Start</a></li>
+                        <li><a href="objekt.html">Objekt</a></li>
+                        <li><a href="kontakt.html">Kontakt</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <div>
+                <input type="text" placeholder="Sök här!" id="sökbar">
                 <!--https://pixabay.com/sv/vectors/f%C3%B6rstoringsglas-lupp-s%C3%B6k-f%C3%B6rstora-155170/-->
-                <td><img src="../bilder/söklogga.png" alt="sök" id="soklogga"></td>
-                </tr>
-            </table>
-            <ul>
-            <li><img src="../bilder/bars-solid.svg" alt="dropmeny">
-                <ul><!--show on hover-->
-                    <li><a href="index.html">Start</a></li>
-                    <li><a href="objekt.html">Objekt</a></li>
-                    <li><a href="kontakt.html">Kontakt</a></li>
-                </ul>
-            </li>
-        </ul>
+                <img src="../bilder/söklogga.png" alt="sök" id="soklogga">
+            </div>
+            
         </nav>
     </header>
     <!--Delar upp huvuddelen av sidan i två delar så de kan ligga bredvid varandra-->
