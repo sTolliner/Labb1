@@ -14,7 +14,9 @@ header{
     text-decoration: none;
     color: black;
 }
-
+#menu{
+    display: flex
+}
 #soklogga{
     height: 25px;
     width: 18px;
