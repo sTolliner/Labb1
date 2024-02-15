@@ -1,89 +1,104 @@
-body{
+body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
 }
+
 /*Kod för header*/
-header{
+header {
     background-color: yellow;
 }
-#Logotyp{
+
+#Logotyp {
     height: 35px;
     width: 20px;
 }
-#home{
+
+#home {
     text-decoration: none;
     color: black;
 }
-#menu{
-    display: flex
-}
-#soklogga{
+#soklogga {
     height: 25px;
     width: 18px;
 }
-#headerspace1{
+
+#headerspace1 {
     width: 5%;
 }
-#headerspace2{
+
+#headerspace2 {
     width: 65%;
 }
-nav{
+
+nav {
     display: flex;
     justify-content: space-between;
 }
-header>nav>.main-menu>li>img{
+
+header>nav>#menu>li>img {
     height: 35px;
     width: 35px;
 }
-header>nav>.main-menu{
+
+header>nav>#menu {
     display: flex;
     list-style-type: none;
     padding-left: 0;
     align-items: center;
 }
-header>nav>.main-menu>li{
+
+header>nav>#menu>li {
     margin: 0 0.5rem;
 
 }
-header>nav>.main-menu>li>.dropdown{
+
+header>nav>#menu>li>.dropdown {
     display: none;
     list-style-type: none;
 }
-header>nav>.main-menu>li:hover>.dropdown{
+
+header>nav>#menu>li:hover>.dropdown {
     display: block;
 }
+
 /*Kod för indexsida*/
-main>figure>img{
+main>figure>img {
     height: 300px;
     width: 350px;
     margin: 0;
     border: 2px solid white;
 }
-main>figure>img:hover{
+
+main>figure>img:hover {
     border: 2px solid black;
 }
-main>figure>a>img{
+
+main>figure>a>img {
     height: 300px;
     width: 350px;
     margin: 0;
     border: 2px solid white;
 }
-main>figure>a>img:hover{
+
+main>figure>a>img:hover {
     border: 2px solid black;
 }
-#main_start{
+
+#main_start {
     display: flex;
     flex-wrap: wrap;
 }
-main>figure>figcaption{
+
+main>figure>figcaption {
     color: darkslategrey;
     /*font-weight: bold;  står redan i html filen*/
 }
+
 /*Kod för footer*/
-#kontaktfooter_start{
+#kontaktfooter_start {
     background-color: yellow;
     padding-top: 0;
-    
+
     bottom: 0;
     width: 100%;
 }
